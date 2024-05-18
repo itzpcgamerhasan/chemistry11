@@ -1,0 +1,91 @@
+body{
+    font-family: "Hind Siliguri", sans-serif;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+header{
+    position: sticky;
+    top:0;
+}
+.title{
+text-align: center;
+color: rgb(255, 92, 92);
+width: 80%;
+margin: 0 auto;
+padding: 0px;
+background: linear-gradient(
+      90deg,
+      rgba(187, 230, 255, 0.616) 0%,
+      rgba(13, 158, 241, 0.4) 70%
+    );backdrop-filter: blur(10px);
+   border-radius: 50px ; 
+}
+.basics h2{
+    text-align: center;
+    color: rgb(39, 34, 46);
+    margin-top: -10px;
+    text-decoration:underline;
+    
+}
+.basics ul{
+    margin-top: -10px;
+}
+.basics li{
+    list-style-type:decimal-leading-zero;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Baloo Da 2", sans-serif;
+}
+span.a{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Hind Siliguri", sans-serif;
+    text-decoration: underline;
+    color: rgb(255, 94, 0);
+    margin-left: 10px;
+}
+span.c{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+h4{
+    margin-left:10px
+}
+hr{
+    margin-top:-10px
+}
+.basics h3, .qus h3{
+    text-align: center;
+    border-bottom: 1px dotted gray;
+    margin-left: -38px;
+    color: rgb(143, 145, 255);
+    
+}
+ul ul li{
+    font-family: "Baloo Da 2", sans-serif;
+    font-weight: 600;
+}
+.ad{transition: all 400ms ease}
+span.qus{
+    font-size: 18px;font-weight: 700; text-decoration: underline;color: rgb(0, 153, 255);
+    border:1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    background: rgb(223, 222, 222);
+    padding: 2px;
+    transition: all 400ms ease;
+}
+span.qus:hover{color:white;background-color: rgb(135, 163, 255);text-decoration: none;cursor: pointer;}
+.ad span:hover{color: rgb(245, 0, 0);background-color: rgb(173, 188, 238);padding: 2px;border-radius: 10px;transition: all 400ms ease;text-decoration: none;cursor: pointer;}
+
+li::after{
+    content: '\f0d7';
+    font-family: FontAwesome;
+    float: right;
+    margin-left: 6px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -1px;
+    color: brown;
+}
